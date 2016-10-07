@@ -14,55 +14,68 @@
       <nav class="main-nav">
         <h1>Samuel Carter</h1>
         <ul>
-          <li>Home</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
+          <li><a href="#top" class="v">Home</a></li>
+          <li><a href="#portfolio" class="footer-list-nav">Portfolio</a></li>
+          <li><a href="#contact" class="footer-list-nav">Contact</a></li>
         </ul>
       </nav>
     </header>
     <div class="summary">
-      <img sizes="(min-width: 1024px) 1024px, (min-width:1px) 280px"
-           srcset="img/1024profile.jpg 1024w,
-                   img/320profile.png 320w" 
-          alt="some profile pictures. fucking stupid resizing garbage"
-          src="img/320profile.png"
-        />
+      <div class="profile-image">
+        <img 
+          sizes="40vw,
+                (min-width: 1024px) 512px"
+          srcset="img/1024profile.jpg 1920w, img/760profile.png 620w, img/320profile.png 280w"
+          src="img/320profile.png"      
+        />      
+      </div>
       <p>Hi! I'm a front-end devloper who loves responsive design and css. I recently finished a degree in front-end web devlopment at Treehouse and am excited to put all my skills to use!</p>
     </div>
     <div class="gallery" id="portfolio">
       <h2>Portfolio</h2>
       <ul>
         <li>
-          <img src="img/portfolio-1.png" alt="">
-          <h3>Marketing Page</h3>
-          <p>This project shows the front page of a marketing website meant for a specific business I'm intersted in.</p>
+          <img src="img/portfolio-1.png" alt=""/>
+          <div class="gallery-item">
+            <h3>Marketing Page</h3>
+            <p>This project shows the front page of a marketing website meant for a specific business I'm intersted in.</p>
+          </div>
         </li>
         <li>
-          <img src="img/portfolio-2.png" alt="">
-          <h3>Search Page</h3>
-          <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+          <img src="img/portfolio-2.png" alt=""/>
+          <div class="gallery-item">
+            <h3>Search Page</h3>
+            <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+          </div>
         </li>
         <li>
-          <img src="img/portfolio-3.png" alt="">
-          <h3>Travel App</h3>
-          <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+          <img src="img/portfolio-3.png" alt=""/>
+          <div class="gallery-item">
+            <h3>Travel App</h3>
+            <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+          </div>
         </li>
         <li>
-          <img src="img/portfolio-6.png" alt="">
-          <h3>Map of Favorite Spots</h3>
-          <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+          <img src="img/portfolio-6.png" alt=""/>
+          <div class="gallery-item">
+            <h3>Map of Favorite Spots</h3>
+            <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+          </div>
         </li>
         <li>
-          <img src="img/portfolio-5.png" alt="">
-          <h3>Photo Gallery</h3>
-          <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+          <img src="img/portfolio-5.png" alt=""/>
+          <div class="gallery-item">
+            <h3>Photo Gallery</h3>
+            <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+          </div>
         </li>
         <li>
-          <img src="img/portfolio-4.png" alt="">
-          <h3>Calculator</h3>
-          <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+          <img src="img/portfolio-4.png" alt=""/>
+          <div class="gallery-item">  
+            <h3>Calculator</h3>
+            <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+          </div>
         </li>
-        <div style="clear: both;"></div>
       </ul>
     </div>
     <div class="contact" id="contact">
